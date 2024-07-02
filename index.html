@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Profile Section -->
+      <section class="card profile-card">
+        <div class="profile-image">
+          <img
+            src="WhatsApp Image 2024-07-01 at 7.35.02 PM (1).jpeg"
+            alt="Profile Picture"
+            data-testid="slackProfilePicture"
+            width="1920"
+            height="2560" />
+        </div>
+        <div class="profile-details">
+          <h1 data-testid="slackDisplayName">Nyiayaana Bariagara</h1>
+          <p class="profile-info" data-testid="slackEmail">
+            Email: oyoyobari@gmail.com
+          </p>
+        </div>
+      </section>
+
+      <!-- Bio Section -->
+      <section class="card bio-card">
+        <h2>My Tech Goals</h2>
+        <p>
+          Over the next two years, my goal is to deepen my knowledge in web
+          development, mastering front-end technologies such as HTML, CSS, and
+          JavaScript, and to become proficient in popular frameworks like React
+          and Angular. I aim to work on several projects that will enhance my
+          problem-solving skills and contribute to my portfolio. Furthermore, I
+          plan to gain experience through internships and collaborative projects
+          in the tech community, while also exploring back-end development to
+          become a full-stack developer.
+        </p>
+      </section>
+
+      <!-- Current Information Section -->
+      <section class="card time-card">
+        <h2>Current Information</h2>
+        <p data-testid="currentTimeUTC">
+          Current UTC Time: <span id="utc-time"></span>
+        </p>
+        <p data-testid="currentDay">
+          Current Day: <span id="current-day"></span>
+        </p>
+      </section>
+
+      <!-- Useful Links Section -->
+      <section class="card useful-links">
+        <h2>Useful Links</h2>
+        <ul>
+          <li>
+            <a href="https://hng.tech/learn" data-testid="hngLink"
+              >HNG Tech Learn</a
+            >
+          </li>
+          <li>
+            <a href="https://keyword.dog" data-testid="keywordLink"
+              >Keyword Dog</a
+            >
+          </li>
+          <li>
+            <a href="https://scrapeanyweb.site" data-testid="scrapeanywebLink"
+              >Scrape Any Web</a
+            >
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  text-align: center;
+}
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+}
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.profile-details h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.profile-info {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.bio-card,
+.contact-card,
+.time-card,
+.useful-links {
+  line-height: 1.5;
+}
+.bio-card h2,
+.contact-card h2,
+.time-card h2,
+.useful-links h2 {
+  margin-bottom: 10px;
+}
+.contact-info a {
+  text-decoration: none;
+  color: blue;
+}
+.useful-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+.useful-links ul li {
+  margin-bottom: 10px;
+}
+.useful-links ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
